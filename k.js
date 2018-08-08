@@ -109,7 +109,7 @@ let embed = new Discord.RichEmbed()
 
 
 
-"ko!özellikler \nko!mkemal \nko!izmirmarşı") 
+"ko!özellikler \nko!mkemal \nko!izmirmarşı \nko!ekle") 
 
 
 
@@ -370,7 +370,7 @@ let embed = new Discord.RichEmbed()
 
 
 
-"ko!özellikler \nko!mkemal \nko!izmirmarşı") 
+"ko!özellikler \nko!mkemal \nko!izmirmarşı \nko!ekle") 
 
 
 
@@ -892,5 +892,38 @@ msg.channel.send({embed: embed})
 
 });
 
+ client.on('message', msg => {
+
+
+
+if (msg.content === prefix + 'ekle') { 
+
+
+
+let embed = new Discord.RichEmbed() 
+
+
+
+.setColor(Math.floor(Math.random() * (0xFFFFFF + 5))) 
+
+
+
+.addField("Botu ekleme linki:", 
+
+
+
+"https://goo.gl/bcDb5a") 
+
+
+
+msg.channel.send({embed: embed}) 
+
+
+
+} 
+
+
+
+});
 
 client.login(process.env.BOT_TOKEN);
