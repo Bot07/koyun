@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-var prefix = 'k!'
+var prefix = 'ko!'
 
 client.on("ready", () => {client.user.setGame(' k!yardım | Meeeee! | Sunucu Sayısı: ' + client.guilds.size , 'https://twitch.tv/TheGodFather')
 
@@ -22,7 +22,7 @@ let embed = new Discord.RichEmbed()
 
 .addField("2 çeşit yardım menüm var", 
 
-"Özel mesaj (Yardım menüsünü özel mesaj olarak atar.)\nNormal yardım (Sunucudaki chate atar.)\n**Özel mesaj için = fd!öyardım**\n**Normal yardım için = fd!nyardım**") 
+"Özel mesaj (Yardım menüsünü özel mesaj olarak atar.)\nNormal yardım (Sunucudaki chate atar.)\n**Özel mesaj için = ko!öyardım**\n**Normal yardım için = ko!nyardım**") 
 
 
 msg.channel.send({embed: embed})  
@@ -109,7 +109,7 @@ let embed = new Discord.RichEmbed()
 
 
 
-"k!özellikler \nk!atatürk \nk!izmirmarşı") 
+"ko!özellikler \nko!atatürk \nko!izmirmarşı") 
 
 
 
@@ -370,7 +370,7 @@ let embed = new Discord.RichEmbed()
 
 
 
-"k!özellikler \nk!atatürk \nk!izmirmarşı") 
+"ko!özellikler \nko!atatürk \nko!izmirmarşı") 
 
 
 
