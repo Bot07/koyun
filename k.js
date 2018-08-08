@@ -33,6 +33,7 @@ msg.channel.send({embed: embed})
 });
 
 
+client.on('message', msg => { 
 if (msg.content === prefix + 'öyardım') { 
 
 
