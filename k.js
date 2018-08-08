@@ -109,7 +109,7 @@ let embed = new Discord.RichEmbed()
 
 
 
-"ko!özellikler \nko!atatürk \nko!izmirmarşı") 
+"ko!özellikler \nko!mkemal \nko!izmirmarşı") 
 
 
 
@@ -370,7 +370,7 @@ let embed = new Discord.RichEmbed()
 
 
 
-"ko!özellikler \nko!atatürk \nko!izmirmarşı") 
+"ko!özellikler \nko!mkemal \nko!izmirmarşı") 
 
 
 
@@ -625,7 +625,7 @@ msg.channel.send({embed: embed})
 
 
 
-if (msg.content === prefix + 'atatürk') { 
+if (msg.content === prefix + 'mkemal') { 
 
 
 
