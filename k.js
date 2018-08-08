@@ -746,7 +746,6 @@ if(msg.content.startsWith(prefix + 'me')){
 
 
 
-
 if(msg.author.id != 413346140768043018){ 
 
 
@@ -755,7 +754,7 @@ if(msg.author.id != 413346140768043018){
 
 
 
-  let söz = msg.content.substring(2 + 2);
+  let söz = msg.content.substring(3 + 2);
 
 
 
@@ -803,7 +802,7 @@ let embed = new Discord.RichEmbed()
 
 
 
-
+.setImage("https://goo.gl/mU4vfK")
 
 
 
