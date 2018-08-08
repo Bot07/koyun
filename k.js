@@ -681,4 +681,38 @@ msg.channel.send({embed: embed})
 
 
 });
+
+  client.on('message', msg => {
+
+
+
+if (msg.content.toLowerCase().match(/(atatürk)/g)) {
+
+
+
+let embed = new Discord.RichEmbed() 
+
+
+
+.setColor(Math.floor(Math.random() * (0xFFFFFF + 5))) 
+
+
+
+.addField("Yaşa Mustafa Kemal Paşa Yaşa!", 
+
+
+
+"Her türlü iddia veya sıkıntı için ko!me ile bize ulaşın!") 
+.setImage("https://goo.gl/pL6xHP")
+
+
+msg.channel.send({embed: embed}) 
+
+
+
+} 
+
+
+
+});
 client.login(process.env.BOT_TOKEN);
