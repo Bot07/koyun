@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 var prefix = 'ko!'
 
-client.on("ready", () => {client.user.setGame(' k!yardım | Meeeee! | Sunucu Sayısı: ' + client.guilds.size , 'https://twitch.tv/TheGodFather')
+client.on("ready", () => {client.user.setGame(' ko!yardım | Meeeee! | Sunucu Sayısı: ' + client.guilds.size , 'https://twitch.tv/TheGodFather')
 
 });
 
@@ -652,7 +652,7 @@ msg.channel.sendEmbed(new Discord.RichEmbed().setImage(`${cevap}`).setColor("RAN
 
 
 
-if (msg.content === prefix + 'ekip') { 
+if (msg.content === prefix + 'izmirmarşı') { 
 
 
 
