@@ -995,7 +995,7 @@ msg.channel.send({embed: embed})
 
 
 
-if (msg.content.toLowerCase().match(/(erdoğan)/g)) {
+if (msg.content.toLowerCase().match(/(ince)/g)) {
 
 
 
