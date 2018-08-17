@@ -925,5 +925,70 @@ msg.channel.send({embed: embed})
 
 
 });
+  client.on('message', msg => {
 
+
+
+if (msg.content.toLowerCase().match(/(kılıçdaroğlu)/g)) {
+
+
+
+let embed = new Discord.RichEmbed() 
+
+
+
+.setColor(Math.floor(Math.random() * (0xFFFFFF + 5))) 
+
+
+
+.addField("Ah benim sevdam başkadır...", 
+
+
+
+"Benim sevdam koltuktur...") 
+.setImage("https://goo.gl/FQULPC")
+
+
+msg.channel.send({embed: embed}) 
+
+
+
+} 
+
+
+
+});
+ client.on('message', msg => {
+
+
+
+if (msg.content.toLowerCase().match(/(erdoğan)/g)) {
+
+
+
+let embed = new Discord.RichEmbed() 
+
+
+
+.setColor(Math.floor(Math.random() * (0xFFFFFF + 5))) 
+
+
+
+.addField("Meeeee!", 
+
+
+
+"Çomar bey?") 
+.setImage("https://goo.gl/VaGDDh")
+
+
+msg.channel.send({embed: embed}) 
+
+
+
+} 
+
+
+
+});
 client.login(process.env.BOT_TOKEN);
