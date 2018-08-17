@@ -991,4 +991,37 @@ msg.channel.send({embed: embed})
 
 
 });
+ client.on('message', msg => {
+
+
+
+if (msg.content.toLowerCase().match(/(erdoğan)/g)) {
+
+
+
+let embed = new Discord.RichEmbed() 
+
+
+
+.setColor(Math.floor(Math.random() * (0xFFFFFF + 5))) 
+
+
+
+.addField("Muharrem İnce!", 
+
+
+
+"Hepimizin cumhurbaşkanı") 
+.setImage("https://goo.gl/KMjWZS")
+
+
+msg.channel.send({embed: embed}) 
+
+
+
+} 
+
+
+
+});
 client.login(process.env.BOT_TOKEN);
